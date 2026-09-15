@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.4.9](https://github.com/TrogonStack/eventstore/compare/v1.4.8...v1.4.9) (2026-09-15)
+
+
+### Bug Fixes
+
+* **notifications:** Recover from a dead listener connection ([#11](https://github.com/TrogonStack/eventstore/issues/11)) ([a1268b5](https://github.com/TrogonStack/eventstore/commit/a1268b5441a6eb08f5b2cf62a9c632f2652a227a))
+* **subscriptions:** Keep catching up when the checkpoint timer fires ([#10](https://github.com/TrogonStack/eventstore/issues/10)) ([23cbf8e](https://github.com/TrogonStack/eventstore/commit/23cbf8e7d5e841a50ce0ae674cd37f46de6b2799))
+
 ## v1.4.8
 
 ### Bug fixes
